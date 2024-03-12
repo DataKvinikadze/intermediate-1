@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk";
+}
+
+body {
+  margin: 100px;
+  background-color: #f5f5f5;
+}
+
+/* Whole Container */
+
+.container {
+  border-radius: 32px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 736px;
+  height: 512px;
+}
+
+/* First Side */
+
+.container .first-side {
+  width: 368px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #6943ff 0%, #593df9 27%, #2f2ce9 100%);
+  border-radius: 32px;
+}
+
+.first-side .header {
+  padding: 38px 124px 0px 119px;
+}
+
+.header .result {
+  width: 125px;
+  height: 31px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #cac9ff;
+}
+
+.first-side .oval {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 60px 46px 59px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(to bottom, #4d21c9 0%, rgba(37, 33, 201, 0%));
+  margin-top: 35px;
+}
+
+.oval .first-number {
+  margin-bottom: 4px;
+  font-weight: bolder;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.oval .second-number {
+  color: #cac9ff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 15px 0px 14px;
+}
+
+.container .comment {
+  padding-top: 28px;
+  width: 260px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.comment .comment2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0px 91px 14px 86px;
+}
+
+.comment .comment3 {
+  width: 260px;
+  height: 69px;
+  font-size: 18px;
+  color: #cac9ff;
+}
+
+/* Second Side */
+
+.container .second-side {
+  width: 368px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.second-side .header2 {
+  margin: 38px 224px 0px 40px;
+}
+
+.header2 .summary {
+  font-weight: bold;
+  font-size: 24px;
+  color: #303b59;
+}
+
+.second-side .performance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 288px;
+  height: 272px;
+  margin-top: 28px;
+  margin-left: 40px;
+}
+
+.performance div {
+  display: flex;
+  align-items: center;
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+}
+
+.performance .reaction {
+  background-color: rgba(255, 85, 85, 0.1);
+}
+
+img {
+  padding-left: 16px;
+}
+
+.reaction .reaction-text {
+  padding-left: 12px;
+  font-size: 18px;
+  color: #ff5555;
+}
+
+.reaction .numberreac1 {
+  padding-left: 81px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+
+.reaction .numberreac2 {
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(48, 59, 89, 0.5);
+}
+
+.performance .memory {
+  background-color: rgba(255, 178, 30, 0.1);
+}
+
+.memory .memory-text {
+  color: #ffb21e;
+  padding-left: 12px;
+  font-size: 18px;
+}
+
+.memory .numbermem1 {
+  padding-left: 84px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+
+.memory .numbermem2 {
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(48, 59, 89, 0.5);
+}
+
+.performance .verbal {
+  background-color: rgba(0, 187, 143, 0.1);
+}
+
+.verbal .verbal-text {
+  color: #00bb8f;
+  padding-left: 12px;
+  font-size: 18px;
+}
+
+.verbal .numberver1 {
+  padding-left: 99px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+
+.verbal .numberver2 {
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(48, 59, 89, 0.5);
+}
+
+.performance .visual {
+  background-color: rgba(17, 37, 214, 0.1);
+}
+
+.visual .visual-text {
+  color: #1125d6;
+  font-size: 18px;
+  padding-left: 12px;
+}
+
+.visual .numbervisu1 {
+  padding-left: 102px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+
+.visual .numbervisu2 {
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(48, 59, 89, 0.5);
+}
+
+/* button */
+
+.second-side .button {
+  width: 288px;
+  height: 56px;
+  border-radius: 128px;
+  margin: 41px 40px 46px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background-color: #303b59;
+}
